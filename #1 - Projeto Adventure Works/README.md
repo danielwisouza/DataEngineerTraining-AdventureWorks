@@ -85,7 +85,7 @@ Exemplo de execução, implementado pois data lake no formato delta.
 
 :sparkler: **Data Bricks**
 <p>
- <img src="img/DataBricks_organização.PNG" width="700px" />
+ <img src="img/DataBricks_organização.png" width="700px" />
 </p></br>
 
 
