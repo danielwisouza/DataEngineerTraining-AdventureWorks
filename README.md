@@ -1,6 +1,6 @@
 <div align="center" id="top"> 
   <a href="https://www.linkedin.com/in/danielwisouza/">
-    <img src="img/Willians.png" alt="Projeto Adenture Works" width="150px" /> 
+    <img src="img/Projeto AdventureWorks.png" alt="Projeto Adenture Works" width="450px" /> 
 </a>
 
   &#xa0;
@@ -8,11 +8,12 @@
   <!-- <a href="https://www.linkedin.com/in/danielwisouza/">LinkdeIn</a> -->
 </div>
 
-<h2 align="center">Projeto Adenture Works</h2>
+<h2 align="center">Projeto AdventureWorks</h2>
 
 <p align="center">
     <a href="https://www.linkedin.com/in/danielwisouza/">
-        <img src="img/Arquitetura.PNG" alt="Engenharia De Dados Cloud" /> 
+        <img src="img/Arquitetura.PNG" alt="Engenharia De Dados Cloud"
+        width="750px" />  
     </a>
 </p>
 
