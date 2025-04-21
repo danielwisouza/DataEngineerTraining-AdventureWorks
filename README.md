@@ -114,6 +114,8 @@ Running example, implemented as a data lake in delta format.
 :books: **Analysis - Integration with Power BI**
 <p>
 Example:
+</p>
+<p>
  <img src="img/PowerBI.png" width="700px" />
 </p></br>
 
