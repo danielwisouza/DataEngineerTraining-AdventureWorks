@@ -34,13 +34,13 @@
 <br>
 
 ## :dart: About ##
-:construction_worker: **Engenharia de dados : Coletar, Tratar e disponibilizar o dado** </br>
-:speech_balloon: **Analise de dados: Consumir, analisar e disponilizar os insight**
+:construction_worker: **Data engineering: Collect, process and make data available** </br>
+:speech_balloon: **Data analysis: Consume, analyze and make insights available**
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
-Neste projeto foram utilizadas as seguintes ferramentas:
+The following tools were used in this project:
 
 :heavy_check_mark: Azure Blob Storage\
 :heavy_check_mark: Azure Data Lake Storage - ADLS\
@@ -50,17 +50,16 @@ Neste projeto foram utilizadas as seguintes ferramentas:
 :heavy_check_mark: Servelees SQL Pool\
 :heavy_check_mark: Apache Spark Pool\
 :heavy_check_mark: Azure Data Bricks\
-:heavy_check_mark: Precificação| Gerenciamento de custo + cobrança | Conta de cobrança\
-:heavy_check_mark: Segurança | Assinaturas\
-:heavy_check_mark: Gerenciamento de Recursos\
-:heavy_check_mark: Engenharia de dados : Coletar, Tratar e disponibilizar o dado;\
-:heavy_check_mark: Analise de dados: Consumir, analisar e disponilizar os insight;
-
+:heavy_check_mark: Pricing | Cost Management + Billing | Billing Account\
+:heavy_check_mark: Security | Subscriptions\
+:heavy_check_mark: Resource Management\
+:heavy_check_mark: Data engineering: Collect, process and make data available;
+:heavy_check_mark: Data analysis: Consume, analyze and make insights available;
 
 
 ## :checkered_flag: Projeto ##
 
-:clock12: **Gerenciamento de Recursos**
+:clock12: **Resource Management**
 <p>
 <img src="img/gerenciamento_recurso1.png" width="700px" />
 <p>
@@ -69,7 +68,7 @@ Neste projeto foram utilizadas as seguintes ferramentas:
 
 
 :file_folder: **Azure Data Lake Storage Gen2- ADLS**
-Exemplo de execução, implementado pois data lake no formato delta.
+Running example, implemented as a data lake in delta format.
 <p>
  <img src="img/ADLS.png" width="700px" />
 <img src="img/ADLS_parquet.png" width="700px" />
@@ -82,19 +81,19 @@ Exemplo de execução, implementado pois data lake no formato delta.
 </p></br>
 
 
-:sparkler: **Data Bricks**
+:sparkler: **DataBricks**
 <p>
  <img src="img/DataBricks_organização.png" width="700px" />
 </p></br>
 
 
-:books: **Criação de Servidores no Databricks**
+:books: **Creating Servers in Databricks**
 <p>
  <img src="img/DataBricks_Cluster1.png" width="700px" />
  <img src="img/DataBricks_Cluster2.png" width="700px" />
 </p></br>
 
-:books: **Integração ADLS com DataBricks Setup**
+:books: **ADLS Integration with DataBricks Setup**
 <p>
 
  <img src="img/DataBricks_Integração_ADLS.png" width="700px" />
@@ -103,7 +102,7 @@ Exemplo de execução, implementado pois data lake no formato delta.
 
 </p></br>
 
-:books: **DataBricks Camandas Outro, Prata e Bronze**
+:books: **DataBricks Layers Gold, Silver and Bronze**
 <p>
 
  <img src="img/DataBricks_Camadas.png" width="700px" />
@@ -112,13 +111,13 @@ Exemplo de execução, implementado pois data lake no formato delta.
 </p></br>
 
 
-:books: **Análise - Integração Com Power BI**
+:books: **Analysis - Integration with Power BI**
 <p>
-Exemplo:
+Example:
  <img src="img/PowerBI.png" width="700px" />
 </p></br>
 
-:moneybag: **Precificação| Gerenciamento de custo + cobrança | Conta de cobrança**
+:moneybag: **Pricing | Cost Management + Billing | Billing Account**
 <p>
  <img src="img/Custo1.png" width="700px" />
 </p></br>
