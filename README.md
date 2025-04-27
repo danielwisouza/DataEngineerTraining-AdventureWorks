@@ -1,129 +1,122 @@
-<div align="center" id="top"> 
-  <a href="https://www.linkedin.com/in/danielwisouza/">
-    <img src="img/Projeto AdventureWorks.png" alt="Projeto Adenture Works" width="450px" /> 
-</a>
 
-  &#xa0;
+# 🚀 Data Engineer Training - AdventureWorks Project
 
-  <!-- <a href="https://www.linkedin.com/in/danielwisouza/">LinkdeIn</a> -->
+<div align="center">
+  <img src="img/Projeto AdventureWorks.png" alt="AdventureWorks Project" width="450px"/>
 </div>
 
-<h2 align="center">Projeto AdventureWorks</h2>
+## 📄 About the Project
 
-<p align="center">
-    <a href="https://www.linkedin.com/in/danielwisouza/">
-        <img src="img/Arquitetura.PNG" alt="Engenharia De Dados Cloud"
-        width="750px" />  
-    </a>
-</p>
+This project simulates a complete **data engineering** pipeline in the **Azure** cloud ecosystem, covering from data ingestion to processing and visualization, following the **Bronze, Silver, and Gold** layered architecture model.
 
-<!-- Status -->
+Main goals:
+- 🚀 Build a structured Data Lake using the Delta format.
+- 🛠️ Create data ingestion, transformation, and analysis pipelines.
+- 📊 Enable data visualization using Power BI.
 
-<!-- <h4 align="center"> 
-	🚧  Padronização De Readme De Projeto 🚀 Under construction...  🚧
-</h4> 
+---
 
-<hr> -->
+## 🛠️ Technologies Used
 
-<p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Projeto</a> &#xa0;  &#xa0;
-</p>
+- **Azure Blob Storage**
+- **Azure Data Lake Storage Gen2 (ADLS)**
+- **Azure Data Factory (ADF)**
+- **Data Flows**
+- **Dedicated SQL Pool**
+- **Serverless SQL Pool**
+- **Apache Spark Pool**
+- **Azure Databricks**
+- **Azure Cost Management**
+- **Azure Security & Resource Management**
 
-<br>
+---
 
-## :dart: About ##
-:construction_worker: **Data engineering: Collect, process and make data available** </br>
-:speech_balloon: **Data analysis: Consume, analyze and make insights available**
+## 🧱 Architecture
 
-## :rocket: Technologies ##
+<div align="center">
+  <img src="img/Arquitetura.PNG" alt="Project Architecture" width="750px"/>
+</div>
 
-The following tools were used in this project:
-The following tools were used in this project:
+---
 
-:heavy_check_mark: Azure Blob Storage\
-:heavy_check_mark: Azure Data Lake Storage - ADLS\
-:heavy_check_mark: Azure Data Factory\
-:heavy_check_mark: Data Flow\
-:heavy_check_mark: Dedicated SQL Pool\
-:heavy_check_mark: Servelees SQL Pool\
-:heavy_check_mark: Apache Spark Pool\
-:heavy_check_mark: Azure Data Bricks\
-:heavy_check_mark: Pricing | Cost Management + Billing | Billing Account\
-:heavy_check_mark: Security | Subscriptions\
-:heavy_check_mark: Resource Management\
-:heavy_check_mark: Data engineering: Collect, process and make data available;
-:heavy_check_mark: Data analysis: Consume, analyze and make insights available;
+## ⚙️ Main Implementations
 
+### 📂 Azure Resource Management
+Organization and management of Azure resources, permissions, and structure for the project.
 
-## :checkered_flag: Projeto ##
+<div align="center">
+  <img src="img/gerenciamento_recurso1.png" width="700px"/>
+  <img src="img/gerenciamento_recurso2.png" width="700px"/>
+</div>
 
-:clock12: **Resource Management**
-<p>
-<img src="img/gerenciamento_recurso1.png" width="700px" />
-<p>
-<img src="img/gerenciamento_recurso2.png" width="700px" />
-</p></br>
+---
 
+### 🛢️ Data Lake (ADLS Gen2) with Delta Format
+Setup of a hierarchical data storage system for storing raw and processed data in the Delta format.
 
-:file_folder: **Azure Data Lake Storage Gen2- ADLS**
-Running example, implemented as a data lake in delta format.
-<p>
- <img src="img/ADLS.png" width="700px" />
-<img src="img/ADLS_parquet.png" width="700px" />
-</p></br>
+<div align="center">
+  <img src="img/ADLS.png" width="700px"/>
+  <img src="img/ADLS_parquet.png" width="700px"/>
+</div>
 
-:sparkler: **Azure Data Factory**
-<p>
- <img src="img/adls_origen.png" width="700px" />
- <img src="img/Adf.png" width="700px" />
-</p></br>
+---
 
+### 🔗 Data Ingestion Pipelines with Azure Data Factory
+Automation of data movement and transformations.
 
-:sparkler: **DataBricks**
-<p>
- <img src="img/DataBricks_organização.png" width="700px" />
-</p></br>
+<div align="center">
+  <img src="img/adls_origen.png" width="700px"/>
+  <img src="img/Adf.png" width="700px"/>
+</div>
 
+---
 
-:books: **Creating Servers in Databricks**
-<p>
- <img src="img/DataBricks_Cluster1.png" width="700px" />
- <img src="img/DataBricks_Cluster2.png" width="700px" />
-</p></br>
+### 🔥 Data Processing with Azure Databricks
+Creation of Spark clusters and implementation of the **Medallion Architecture**.
 
-:books: **ADLS Integration with DataBricks Setup**
-<p>
+<div align="center">
+  <img src="img/DataBricks_organização.png" width="700px"/>
+  <img src="img/DataBricks_Cluster1.png" width="700px"/>
+  <img src="img/DataBricks_Cluster2.png" width="700px"/>
+</div>
 
- <img src="img/DataBricks_Integração_ADLS.png" width="700px" />
- <img src="img/DataBricks_Integração_ADLS_2.png" width="700px" />
+#### Databricks + ADLS Integration
 
+<div align="center">
+  <img src="img/DataBricks_Integração_ADLS.png" width="700px"/>
+  <img src="img/DataBricks_Integração_ADLS_2.png" width="700px"/>
+</div>
 
-</p></br>
+---
 
-:books: **DataBricks Layers Gold, Silver and Bronze**
-<p>
+### 🏅 Bronze, Silver, and Gold Layers
 
- <img src="img/DataBricks_Camadas.png" width="700px" />
+<div align="center">
+  <img src="img/DataBricks_Camadas.png" width="700px"/>
+</div>
 
+---
 
-</p></br>
+### 📈 Data Visualization with Power BI
 
+<div align="center">
+  <img src="img/PowerBI.png" width="700px"/>
+</div>
 
-:books: **Analysis - Integration with Power BI**
-<p>
-Example:
-</p>
-<p>
- <img src="img/PowerBI.png" width="700px" />
-</p></br>
+---
 
-:moneybag: **Pricing | Cost Management + Billing | Billing Account**
-<p>
- <img src="img/Custo1.png" width="700px" />
-</p></br>
+### 💰 Cost Management and Billing
 
-<a href="#top">Back to top</a>
+<div align="center">
+  <img src="img/Custo1.png" width="700px"/>
+</div>
 
+---
 
+## 📬 Contact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/danielwisouza/)
+
+---
+
+[🔝 Back to top](#)
