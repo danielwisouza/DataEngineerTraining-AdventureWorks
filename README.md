@@ -1,37 +1,55 @@
-
-# 🚀 Data Engineer Training - AdventureWorks Project
+# 🚀 Data Engineer Training - AdventureWorks Project  
+**EN 🇺🇸 | PT 🇧🇷**
 
 <div align="center">
   <img src="img/Projeto AdventureWorks.png" alt="AdventureWorks Project" width="450px"/>
 </div>
 
-## 📄 About the Project
+---
 
-This project simulates a complete **data engineering** pipeline in the **Azure** cloud ecosystem, covering from data ingestion to processing and visualization, following the **Bronze, Silver, and Gold** layered architecture model.
+## 📄 Meeting | Reunião
 
-Main goals:
-- 🚀 Build a structured Data Lake using the Delta format.
-- 🛠️ Create data ingestion, transformation, and analysis pipelines.
-- 📊 Enable data visualization using Power BI.
+> **EN:** Screenshots from the project presentation meeting  
+> **PT:** Prints da reunião de apresentação do projeto
+
+<div align="center">
+  <img src="img/Apresentação1.png"/>
+  <img src="img/Apresentação2.png"/>
+</div>
 
 ---
 
-## 🛠️ Technologies Used
+## 📄 About the Project | Sobre o Projeto
 
-- **Azure Blob Storage**
-- **Azure Data Lake Storage Gen2 (ADLS)**
-- **Azure Data Factory (ADF)**
-- **Data Flows**
-- **Dedicated SQL Pool**
-- **Serverless SQL Pool**
-- **Apache Spark Pool**
-- **Azure Databricks**
-- **Azure Cost Management**
-- **Azure Security & Resource Management**
+> **EN:**  
+This project simulates a complete **data engineering** pipeline in the **Azure** cloud ecosystem, covering data ingestion, transformation, storage, and visualization using the **Bronze, Silver, and Gold** layered architecture.
+
+> **PT:**  
+Este projeto simula um pipeline completo de **engenharia de dados** no ecossistema de nuvem **Azure**, abrangendo ingestão, transformação, armazenamento e visualização dos dados, utilizando a arquitetura em camadas **Bronze, Silver e Gold**.
+
+### 🎯 Goals | Objetivos
+- 🚀 Build a structured Data Lake using Delta format.  
+- 🛠️ Create ingestion, transformation, and analysis pipelines.  
+- 📊 Enable data visualization with Power BI.
 
 ---
 
-## 🧱 Architecture
+## 🛠️ Technologies Used | Tecnologias Utilizadas
+
+- Azure Blob Storage  
+- Azure Data Lake Storage Gen2 (ADLS)  
+- Azure Data Factory (ADF)  
+- Data Flows  
+- Dedicated SQL Pool  
+- Serverless SQL Pool  
+- Apache Spark Pool  
+- Azure Databricks  
+- Azure Cost Management  
+- Azure Security & Resource Management
+
+---
+
+## 🧱 Architecture | Arquitetura
 
 <div align="center">
   <img src="img/Arquitetura.PNG" alt="Project Architecture" width="750px"/>
@@ -39,10 +57,11 @@ Main goals:
 
 ---
 
-## ⚙️ Main Implementations
+## ⚙️ Main Implementations | Principais Implementações
 
-### 📂 Azure Resource Management
-Organization and management of Azure resources, permissions, and structure for the project.
+### 📂 Azure Resource Management | Gerenciamento de Recursos Azure
+> **EN:** Organization and permission structure for project resources  
+> **PT:** Organização e estrutura de permissões dos recursos do projeto
 
 <div align="center">
   <img src="img/gerenciamento_recurso1.png" width="700px"/>
@@ -51,8 +70,7 @@ Organization and management of Azure resources, permissions, and structure for t
 
 ---
 
-### 🛢️ Data Lake (ADLS Gen2) with Delta Format
-Setup of a hierarchical data storage system for storing raw and processed data in the Delta format.
+### 🛢️ Data Lake with Delta Format | Data Lake com Formato Delta
 
 <div align="center">
   <img src="img/ADLS.png" width="700px"/>
@@ -61,8 +79,7 @@ Setup of a hierarchical data storage system for storing raw and processed data i
 
 ---
 
-### 🔗 Data Ingestion Pipelines with Azure Data Factory
-Automation of data movement and transformations.
+### 🔗 Data Ingestion with ADF | Ingestão de Dados com Azure Data Factory
 
 <div align="center">
   <img src="img/adls_origen.png" width="700px"/>
@@ -71,8 +88,10 @@ Automation of data movement and transformations.
 
 ---
 
-### 🔥 Data Processing with Azure Databricks
-Creation of Spark clusters and implementation of the **Medallion Architecture**.
+### 🔥 Processing with Databricks | Processamento com Databricks
+
+> **EN:** Implementation of **Medallion Architecture** using Spark  
+> **PT:** Implementação da **Arquitetura Medallion** com Spark
 
 <div align="center">
   <img src="img/DataBricks_organização.png" width="700px"/>
@@ -80,7 +99,7 @@ Creation of Spark clusters and implementation of the **Medallion Architecture**.
   <img src="img/DataBricks_Cluster2.png" width="700px"/>
 </div>
 
-#### Databricks + ADLS Integration
+#### 🔗 Databricks + ADLS Integration | Integração Databricks + ADLS
 
 <div align="center">
   <img src="img/DataBricks_Integração_ADLS.png" width="700px"/>
@@ -89,7 +108,7 @@ Creation of Spark clusters and implementation of the **Medallion Architecture**.
 
 ---
 
-### 🏅 Bronze, Silver, and Gold Layers
+### 🏅 Bronze, Silver and Gold Layers | Camadas Bronze, Silver e Gold
 
 <div align="center">
   <img src="img/DataBricks_Camadas.png" width="700px"/>
@@ -97,7 +116,7 @@ Creation of Spark clusters and implementation of the **Medallion Architecture**.
 
 ---
 
-### 📈 Data Visualization with Power BI
+### 📈 Power BI Visualization | Visualização com Power BI
 
 <div align="center">
   <img src="img/PowerBI.png" width="700px"/>
@@ -105,7 +124,7 @@ Creation of Spark clusters and implementation of the **Medallion Architecture**.
 
 ---
 
-### 💰 Cost Management and Billing
+### 💰 Cost Management | Gerenciamento de Custos
 
 <div align="center">
   <img src="img/Custo1.png" width="700px"/>
@@ -113,10 +132,10 @@ Creation of Spark clusters and implementation of the **Medallion Architecture**.
 
 ---
 
-## 📬 Contact
+## 📬 Contact | Contato
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/danielwisouza/)
 
 ---
 
-[🔝 Back to top](#)
+[🔝 Back to top | Voltar ao topo](#)
